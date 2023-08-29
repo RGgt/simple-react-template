@@ -1,0 +1,1 @@
+This template is for a client-side React project with routing, DI and state management.
