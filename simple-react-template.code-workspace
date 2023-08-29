@@ -26,7 +26,8 @@
 		"terminal.integrated.fontSize": 12,
 		"cSpell.words": [
 			"Consolas",
-			"Fira"
+			"Fira",
+			"reduxjs"
 		],
 	}
 }

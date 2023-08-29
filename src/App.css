@@ -44,3 +44,10 @@ h1 {
   order: 1;
   line-height: 1;
 }
+.main-button{
+  width:100%;
+  margin-bottom: 20px;
+  background: #150073;
+  color: #c6bcef;
+  padding: 1rem;
+}
