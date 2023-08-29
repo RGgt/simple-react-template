@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"statusBar.background": "#19472c",
+			"titleBar.activeBackground": "#19472c",
+			"titleBar.inactiveBackground": "#28563b",
+			"tab.activeBorderTop": "#6bb088",
+			"tab.activeBorder": "#6bb088",
+			"tab.activeBackground": "#287448",
+			"tab.hoverBackground": "#6bb088",
+		},
+		"files.trimTrailingWhitespace": true,
+		"editor.tabSize": 2,
+		"files.insertFinalNewline": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnSaveMode": "file", // required to format on save
+		"editor.formatOnPaste": false, // required
+		"editor.formatOnType": false, // required
+		"editor.fontSize": 12,
+		"editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+		"terminal.integrated.fontSize": 14,
+		"cSpell.words": [
+			"Consolas",
+			"Fira"
+		],
+	}
+}
