@@ -77,3 +77,10 @@ h1 {
 #sidebar li a:hover {
   background-color: #0d2417;
 }
+
+#error-page {
+    text-align: left;
+}
+#error-page h2 {
+  text-align: center;
+}

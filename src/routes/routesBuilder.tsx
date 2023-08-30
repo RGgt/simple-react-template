@@ -7,24 +7,16 @@ function createRoutes() {
   return [
     {
       path: '/',
-      element: (
-        <MainLayout>
-          <HomePage />
-        </MainLayout>
-      ),
+      element: <MainLayout />,
       errorElement: (
         <MainLayout>
           <ErrorPage />
         </MainLayout>
       ),
-    },
-    {
-      path: '/other',
-      element: (
-        <MainLayout>
-          <OtherPage />
-        </MainLayout>
-      ),
+      children: [
+        { path: '/', element: <HomePage /> },
+        { path: '/other', element: <OtherPage /> },
+      ],
     },
   ];
 }

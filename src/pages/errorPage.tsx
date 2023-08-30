@@ -6,7 +6,7 @@ function ErrorPage() {
   if (isRouteErrorResponse(error)) {
     return (
       <div id="error-page">
-        <h1>Oops! </h1>
+        <h2>Oops! </h2>
         <p>Sorry, an unexpected error has occurred.</p>
 
         <ul>

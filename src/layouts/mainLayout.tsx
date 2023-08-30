@@ -8,7 +8,6 @@ export interface props {
   children?: React.ReactNode;
 }
 function MainLayout({ children }: props) {
-  console.log('rendering main layout');
   return (
     <>
       <h1>Simple React Template</h1>
@@ -23,6 +22,9 @@ function MainLayout({ children }: props) {
             </li>
             <li>
               <a href={`/other`}>Other Page (reload)</a>
+            </li>
+            <li>
+              <Link to={`/missing_page`}>Error Page</Link>
             </li>
           </ul>
         </nav>
